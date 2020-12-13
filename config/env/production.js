@@ -392,6 +392,13 @@ module.exports = {
 
   },
 
+  xero: {
+    clientId: '',
+    clientSecret: '',
+    redirectUri: 'http://localhost:1337/xero/connect/oauth2-callback',
+    scopes: 'openid profile email accounting.transactions offline_access'
+  }
+
 
 
 };
